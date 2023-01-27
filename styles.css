@@ -1,0 +1,47 @@
+:root {
+    --main-bg-color: whitesmoke;
+    --main-heading-color: slategrey;
+    --main-text-color: black;
+}
+
+body {
+    background-color:var(--main-bg-color);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+h1 {
+    font-size: 4em;
+    margin: 0;
+    color: var(--main-heading-color);
+}
+
+h2 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+#icon {
+    width: 50px;
+    height: auto;
+    color: var(--main-heading-color);
+}
+
+.new-task {
+    width: 500px;
+    line-height: 30px;
+    border: 3px solid black;
+    border-radius: 0.5em;
+    padding: 0 10px;
+}
